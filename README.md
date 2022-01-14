@@ -4,7 +4,7 @@
 
 Created Pac-Man using HTML, CSS and Vanilla JavaScript.
 
-![How it looks](https://github.com/florent-haxhiu/ProjectOne/blob/main/PacMan/Screenshot%202022-01-14%20at%2014.30.06.png)
+![How it looks](https://github.com/florent-haxhiu/ProjectOne/blob/main/img/PacmanSS.png)
 
 ## Deadline
 
