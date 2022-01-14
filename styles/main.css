@@ -1,0 +1,232 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'); */
+@font-face {
+  font-family: invasion;
+  src: url('./font/INVASION2000.TTF');
+}
+
+* {
+  color: rgb(255, 255, 255, 0.9);
+  font-family: 'invasion', cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  /* background-image: url(../img/bg.gif); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  transition: 3s ease;
+}
+
+.bg-play {
+  /* background-image: url(../img/bg-play.jpg); */
+  transition: 3s ease;
+}
+
+.logo {
+  opacity: 0.9;
+  position: absolute;
+  right: 2%;
+  bottom: 1.5rem;
+  width: 20rem;
+}
+
+.welcome {
+  font-size: 4rem;
+  position: absolute;
+  left: 7%;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.aqua {
+  color: rgb(0, 255, 255, 0.9);
+}
+
+
+.game-scores {
+  position: absolute;
+  top: 25%;
+  left: 12%;
+}
+
+.game-score {
+  color: rgb(0, 255, 255, 0.9);
+  font-size: 5rem;
+}
+
+.game-status {
+  font-size: 3rem;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+
+
+.nav {
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 20rem;
+}
+
+.current {
+  line-height: .3;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+}
+
+.player,
+.score {
+  font-size: 2rem;
+}
+
+.score {
+  padding-left: 2.5rem;
+
+}
+
+.highscore {
+  text-align: center;
+  line-height: .1;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+}
+
+
+.high-top {
+  font-size: 1.5rem;
+}
+
+.high {
+  font-size: 1.8rem;
+}
+
+.ready {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 18rem;
+  width: 6rem;
+}
+
+.screen {
+  /* background-color: rgb(0, 0, 0, 0.8); */
+  width: 28rem;
+  height: 100%;
+}
+
+.win {
+
+}
+
+.loss {
+
+}
+
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  width: 28rem;
+  height: 31rem;
+  background-image: url(../img/bg.png);
+  background-color: rgb(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cell {
+  font-size: 10px;
+  width: 1rem;
+  height: 1rem;
+}
+
+.pac-full {
+  background-image: url(../img/pac-full.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pac-left {
+  background-image: url(../img/pac-left.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pac-right {
+  background-image: url(../img/pac-right.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pac-up {
+  background-image: url(../img/pac-up.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pac-down {
+  background-image: url(../img/pac-down.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.red {
+  background-image: url(../img/redGhost.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+
+.pink {
+  background-image: url(../img/pinkGhost.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+
+.cyan {
+  background-image: url(../img/cyanGhost.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+
+.orange {
+  background-image: url(../img/orangeGhost.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+
+
+.ghost-scared {
+  background-image: url(../img/ghost-scared.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+
+
+.food {
+  background-image: url(../img/food.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pellet {
+  background-image: url(../img/pellet.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
