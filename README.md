@@ -12,4 +12,4 @@ We had one week to complete this.
 
 ## Where can I play
 
-You can click ![me](https://florent-haxhiu.github.io/ProjectOne/) and play!
+You can click [me](https://florent-haxhiu.github.io/ProjectOne/) and play!
