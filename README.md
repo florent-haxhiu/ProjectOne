@@ -8,7 +8,7 @@ Created Pac-Man, which was possibly on, using HTML, CSS and Vanilla JavaScript.
 
 ## Deadline
 
-We had one week to complete this.  
+I had one week to complete this.  
 
 
 ## Technologies used
@@ -26,7 +26,7 @@ What was used:
 
 ## How to play
 
-You are Pac-Man and the goal of the game is to eat all of the pellets on the game while avoiding the ghosts, which end the game as soon as you are hit by one.  
+You are playing as Pac-Man and the goal of the game is to eat all of the pellets on the game while avoiding the ghosts, which end the game as soon as you are hit by one.  
 If you get one of the big pellets, the ghost are then scared and you get to munch the ghosts.  
 You will gain more score, the more ghosts you eat.  
 You use the arrow keys to move Pac-Man (WASD will soon be implemented).
