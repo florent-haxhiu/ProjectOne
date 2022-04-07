@@ -2,7 +2,7 @@
 
 ## Pac-Man
 
-Created Pac-Man, which was possibly on, using HTML, CSS and Vanilla JavaScript.
+Created Pac-Man only with HTML, CSS and Vanilla JavaScript.
 
 ![Pac-Man](https://github.com/florent-haxhiu/ProjectOne/blob/main/img/PacmanSS.png)
 
